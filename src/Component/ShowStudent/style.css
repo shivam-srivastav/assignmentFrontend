@@ -1,0 +1,22 @@
+.showStudent {
+  background-color: beige;
+  width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.buttons button {
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-top: .5rem;
+}
+
+.buttons span {
+  margin: 1rem;
+}
+
+li {
+  list-style: none;
+  margin: 2rem;
+}

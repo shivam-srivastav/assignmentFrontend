@@ -1,0 +1,14 @@
+.search {
+  width: 800px;
+  background-color: antiquewhite;
+  margin: auto;
+  text-align: center;
+  height: 100vh;
+}
+
+.buttons {
+  padding: 0.5rem;
+  background-color: aquamarine;
+  margin: 1rem;
+  cursor: pointer;
+}
