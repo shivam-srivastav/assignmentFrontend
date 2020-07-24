@@ -1,5 +1,5 @@
 .search {
-  width: 800px;
+  width: 1000px;
   background-color: antiquewhite;
   margin: auto;
   text-align: center;
@@ -11,4 +11,9 @@
   background-color: aquamarine;
   margin: 1rem;
   cursor: pointer;
+}
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
 }

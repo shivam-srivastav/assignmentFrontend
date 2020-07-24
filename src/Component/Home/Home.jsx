@@ -16,9 +16,9 @@ class Home extends React.Component {
         <div className="searching">
           <Link to="search">Searching Student</Link>
         </div>
-        <div className="searching">
+        {/* <div className="searching">
           <Link to="addstudent">Adding Dummy Data</Link>
-        </div>
+        </div> */}
       </div>
     );
   }

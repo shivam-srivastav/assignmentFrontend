@@ -9,24 +9,23 @@ class AddStudent extends React.Component {
       status: false,
     };
   }
-  onClickHandle = (event) => {
-    data.map((person, i) => {
+  onClickHandle = () => {
+    data.map((person) => {
       console.log(person);
-      axios
+      return axios
         .post("http://localhost:4000/api/adddata", { person })
         .then((res) => {
-          const person = res.data;
-          console.log(person);
+          return (person = res.data);
         });
     });
-    this.setState({ status: true });
+    return this.setState({ status: true });
   };
 
   render() {
     return (
       <div>
         <h1>Add Student</h1>
-        <div onClick={this.onClickHandle}>add dummy data</div>
+        <div onClick={this.onClickHandle()}>add dummy data</div>
         {this.state.status && <div>Dummy Data is loadad sucessfully</div>}
       </div>
     );

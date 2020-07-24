@@ -1,15 +1,24 @@
 .showStudent {
-  background-color: beige;
-  width: 800px;
+  background-color: lightgrey;
+  width: 1000px;
   margin: auto;
+  padding-top: 1rem;
+  margin-top: 1rem;
   text-align: center;
 }
 
 .buttons button {
+  outline: none;
+  border: none;
   margin: 1rem;
   padding: 1rem;
   border-radius: 1rem;
   margin-top: .5rem;
+}
+
+.buttons button:hover {
+  background-color: black;
+  color: aliceblue;
 }
 
 .buttons span {
@@ -17,6 +26,20 @@
 }
 
 li {
+  width: 230px;
   list-style: none;
   margin: 2rem;
+  background-color: lightcyan;
+  padding: .5rem;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li p {
+  max-width: 230px;
+  width: fit-content;
+  overflow: hidden;
 }
